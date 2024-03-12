@@ -5,8 +5,6 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "th.bing.com",
-        port: "",
-        pathname: "/image/upload/**",
       },
     ],
   },

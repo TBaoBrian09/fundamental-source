@@ -56,7 +56,7 @@ const PorfolioPage = () => {
       <div className="h-[600vh] relative" ref={ref}>
         <div className="w-screen h-[calc(100vh-6rem] flex items-center justify-center text-8xl text-center"></div>
         <div className="sticky top-0 h-screnn gap-4 items-center">
-          {/* {items.map((item) => (
+          {items.map((item) => (
             <div className="" key={item.id}>
               <div className="">
                 <h1>{item.title}</h1>
@@ -67,12 +67,7 @@ const PorfolioPage = () => {
                 <Link href={item.link}>See Demo</Link>
               </div>
             </div>
-          ))} */}
-          <Image
-            src="https://th.bing.com/th/id/R.6af6fd9c37f0de4abb34ea0fd20acce3?rik=55mqMmrTutVR0Q&pid=ImgRaw&r=0"
-            alt=""
-            fill
-          />
+          ))}
         </div>
       </div>
     </motion.div>
